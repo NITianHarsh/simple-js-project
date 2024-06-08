@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    color: white;
+    font-size: 30px;
+    border-bottom: 5px dotted rgb(15, 238, 15);
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.clock{
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 15px;
+}
+.marquee {
+    color: white;
+    font-size: large;
+    margin-top: 5px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.marquee span {
+    display: inline-block;
+    animation: marquee 1s linear infinite alternate;
+}
+@keyframes marquee {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
