@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: rgb(42, 42, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgb(89, 86, 86);
+    height: 500px;  width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.header{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.header h1{
+    background-color: rgb(22, 22, 22);
+    padding: 5px 0;   
+}
+.header p{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.main p{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.main input, button{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+input{
+    border: 0;
+    outline: 0;
+    color: rgb(60, 66, 87);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px;
+    border-radius: 4px;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 4px 8px;
+    min-height: 28px;
+    vertical-align: middle;
+}
+
+button{
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    padding: 0 17px;
+    border-radius: 50px;
+    background-color: rgb(42, 42, 42);
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+button:hover {
+    background-color: black;
+}
+.guide p{
+    font-size: 25px;
+    font-weight: normal;
+}
